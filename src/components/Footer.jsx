@@ -5,8 +5,9 @@ const Footer = () => {
   return (
     <footer className="flex justify-center items-center py-6 sm:py-16 flex-col">
       {/* top side */}
-      <div className=" flex justify-center items-center md:flex-row mb-8 w-full">
+      <div className="items-center md:flex-row mb-8 w-full">
         {/* left side */}
+        <div className="flex-wrap pb-10 sm:flex">
         <div className="flex-[1] flex flex-col justify-start mr-10">
           <img
             src={logo}
@@ -18,7 +19,7 @@ const Footer = () => {
           </p>
         </div>
         {/* right side */}
-        <div className="flex[1.5] w-full flex-row flex justify-between flex-wrap md:mt-0 mt-10">
+        <div className="flex-[1.5] w-full flex-row flex justify-between flex-wrap md:mt-0 mt-10">
           {footerLinks.map((footerlink) => (
             <div
               key={footerlink.title}
@@ -39,6 +40,7 @@ const Footer = () => {
               </ul>
             </div>
           ))}
+        </div>
         </div>
         {/* bottom side  */}
         <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
