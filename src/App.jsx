@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Feature from "./components/Feature";
-import Clients from "./components/clients";
+import Clients from "./components/Clients";
 import Introduction from "./components/Introduction";
 const App = () => {
   return (
