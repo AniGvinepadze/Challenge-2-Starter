@@ -2,9 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Feature from "./components/Feature";
-import Introduction from "./components/introduction";
 import Clients from "./components/clients";
-
+import Introduction from "./components/Introduction";
 const App = () => {
   return (
     <div className="w-full overflow-hidden bg-primary text-white">
