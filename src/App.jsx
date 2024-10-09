@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Introduction from "./components/introduction";
 import Feature from "./components/Feature";
 import Clients from "./components/clients";
 
