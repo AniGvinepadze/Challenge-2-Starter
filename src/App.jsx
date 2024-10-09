@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Feature from "./components/Feature";
+import Introduction from "./components/introduction";
 import Clients from "./components/clients";
 
 const App = () => {
